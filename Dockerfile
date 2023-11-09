@@ -4,6 +4,6 @@ WORKDIR /application
 
 COPY asmaa.java .
 
-RUN javac asmaa
+RUN javac asmaa.java
 
 CMD java asmaa
